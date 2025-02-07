@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import './Cart.css';
-import { clearCart, completePurchase, decrement, increment } from "./store";
+import { clearCart, completePurchase, decrement, increment } from "./Store";
 
 function Cart()
 {
@@ -132,9 +132,9 @@ function Cart()
                     </section>
                 )}
 
-<footer className="bg-dark text-white py-4 text-center">
-                <p>&copy; 2025 Food Delivery Service. All rights reserved.</p>
-            </footer>
+                <footer className="bg-dark text-white py-4 text-center">
+                    <p>&copy; 2025 Food Delivery Service. All rights reserved.</p>
+                </footer>
             </div>
         </>
     );

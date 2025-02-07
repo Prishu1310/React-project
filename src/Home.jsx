@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart } from "./store";
+import { addToCart } from "./Store";
 
 function Home()
 {
@@ -88,7 +88,7 @@ function Home()
                 </div>
             </section>
 
-            
+
 
             <footer className="bg-dark text-white py-4 text-center">
                 <p>&copy; 2025 Food Delivery Service. All rights reserved.</p>
