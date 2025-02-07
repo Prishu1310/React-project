@@ -1,0 +1,56 @@
+/* ContactUs.css */
+
+/* General Style for Icons */
+.social-icon {
+    color: #3b5998;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #00acee;
+    transform: scale(1.1);
+}
+
+/* Map container for better responsiveness */
+.map-container iframe {
+    border-radius: 8px;
+}
+
+/* Custom Button Style */
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-body {
+    padding: 3rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-body p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 2rem 0;
+}
